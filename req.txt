@@ -1,3 +1,5 @@
 SQLAlchemy
 pydantic
 python-dotenv
+fastapi
+uvicorn
