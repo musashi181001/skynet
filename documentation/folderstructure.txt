@@ -1,0 +1,15 @@
+apis: Contains the API-related code, such as route definitions and API handlers. This module is responsible for managing the endpoints that your front-end will interact with. 
+
+services: Holds the service layer of your application. The service layer is responsible for implementing the core business logic. It interacts with the data layer (models) and provides functions that can be called by the controller layer. 
+
+controllers: Contains controller code that acts as an intermediary between the API layer and the service layer. Controllers handle incoming HTTP requests, invoke the appropriate services, and return the responses.
+
+models: Includes the data models which define the structure of the data in your application. This is where you define your database schema, ORM models, or any other data representations. 
+
+schemas: Contains schema definitions for request and response validation. This is typically used with libraries like Pydantic or Marshmallow to ensure that the data passed to and from the API meets the expected structure. 
+
+utils: Holds utility functions, helpers, and any other code that is reusable across different parts of the application. These are generally small, generic functions or classes that support the main modules. 
+
+main.py: The entry point of your application. This file typically includes the setup and initialization code for your application, such as creating an instance of the app, registering routes, and starting the server. 
+
+.env: Contains environment variables that your application depends on. These can include database connection strings, API keys, and other configuration settings that should not be hard-coded into your application code. This file is usually read by the application at runtime to configure settings. 
