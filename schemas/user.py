@@ -13,3 +13,7 @@ class UserRead(UserBase):
 
     class Config:
         from_attributes = True
+
+class RequestUser(BaseModel):
+    user_email: str
+    user_password: str

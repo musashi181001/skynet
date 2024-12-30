@@ -7,6 +7,3 @@ authentication module
             user_email
             user_phone
             user_password
-
-    
-    
