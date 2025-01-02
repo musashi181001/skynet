@@ -4,8 +4,13 @@ python-dotenv
 fastapi
 uvicorn
 psycopg2
-passlib
-jose
+
+
 python-jose
 jwt
 bcrypt
+
+
+passlib
+python-multipart
+pyjwt
